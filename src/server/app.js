@@ -1,6 +1,6 @@
 /*jshint node:true*/
 'use strict';
-
+ 
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
@@ -11,7 +11,6 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var port = process.env.PORT || 7203;
 var routes;
-
 var environment = process.env.NODE_ENV;
 
 app.use(favicon(__dirname + '/favicon.ico'));
